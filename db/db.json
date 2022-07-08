@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Curso Vue 3",
+      "author": "marcio alves",
+      "content": "Curso de Vue 3 Completo."
+    },
+    {
+      "id": 2,
+      "title": "Curso HTML",
+      "author": "marcio alves",
+      "content": "Curso de HTML Completo."
+    },
+    {
+      "id": 3,
+      "title": "Curso PHP",
+      "author": "marcio alves",
+      "content": "Curso de PHP Completo."
+    },
+    {
+      "id": 4,
+      "title": "Curso NODE.JS",
+      "author": "marcio alves",
+      "content": "Curso  de Node.js Completo."
+    },
+    {
+      "id": 5,
+      "title": "Curso Pyton",
+      "author": "marcio alves",
+      "content": "Curso de Pyton Completo."
+    }
+  ]
+}
