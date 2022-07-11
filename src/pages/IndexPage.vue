@@ -5,7 +5,20 @@
       :rows="posts"
       :columns="columns"
       row-key="name"
+      hide-header
+      hide-bottom
+      grid
+      class="my-sticky-virtscroll-table"
+      virtual-scroll
+      v-model:pagination="pagination"
+      :rows-per-page-options="[0]"
+      :virtual-scroll-sticky-size-start="48"
     >
+      <template v-slot:top>
+        <span class="text-h5"> Artigos </span>
+        <q-space />
+        <q-btn color="primary" label="Novo" :to="{ name: 'formpost'}"/>
+      </template>
       <template v-slot:body-cell-actions="props">
         <q-td :props="props">
           <q-btn icon="delete" color="negative" dense size="sm" @click="handleDeletePost(props.row.id)" />
